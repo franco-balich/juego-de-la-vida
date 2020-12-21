@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>Juego de la vida</title>
+</head>
+<body onload="inicializa();">
+    
+    <script src="js/index.js"></script>
+    <div id="control" style="padding-left: 20px ; padding-top: 20px;">
+        <canvas id="canvas" style="border: 1px solid #000000;"> </canvas>
+    </div>
+    <div style="padding: 0 40px ; padding-top: 10px;">   
+        <button type="button" class="btn btn-primary" style="width:150px" id="ejecutar">Ejecutar</button>
+        <button type="button" class="btn btn-danger" style="width:150px" id="parar">Parar</button>
+        <button type="button" class="btn btn-warning" style="width:150px" id="random">Cargar ruido</button>
+        <button type="button" class="btn btn-success" style="width:150px" id="reiniciar">Reiniciar</button>
+    </div>
+</body>
+<br>
+    <div class="alert alert-primary" role="alert" style="padding-left: 20px ; padding-top: 20px;">
+        Programa realizado por Franco Adrian Balich
+    </div>
+</html>

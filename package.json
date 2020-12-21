@@ -1,0 +1,23 @@
+{
+  "name": "programa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franco-balich/juego-de-la-vida.git"
+  },
+  "author": "Franco Adrian Balich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/franco-balich/juego-de-la-vida/issues"
+  },
+  "homepage": "https://github.com/franco-balich/juego-de-la-vida#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta1",
+    "node": "^15.4.0"
+  }
+}
